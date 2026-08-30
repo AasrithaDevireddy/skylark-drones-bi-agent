@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: skylark-drones-bi-agent
+    env: docker
+    plan: free
+    autoDeploy: true
